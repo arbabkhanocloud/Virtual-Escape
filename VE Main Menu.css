@@ -1,0 +1,316 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    /* height: 100vh;
+    width: 100vw; */
+    height: 100%;
+    width: 100%;
+    /* background: url(mainmenu.png) no-repeat center center fixed;  */
+    /* background-image: url(mainmenu.png) no-repeat center center fixed; */
+    background: url(mainmenu.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-position:center; */
+    
+}
+.img1{
+    width: 137.79px;
+    height: 35px;
+}
+.img2{
+    width: 99px;
+    height: 38px ;
+    
+}
+.logo2{
+   /* margin-left: 18px; */
+    /* margin-left: 1.64%; */
+    margin-left: 2.64%;
+}
+.logos-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    /* margin-left: 175px; */
+    margin-left: 9%;
+}
+.hamburger-button{
+   /* background-color:white; */
+   height: 55px;
+   width: 55px;
+   background-color: rgba(17,52,70,0);
+   /* display: none; */
+  /* // content-visibility: hidden; */
+  visibility: hidden;
+}
+.button1{
+
+    background-color: rgba(17,52,70,.53);
+    border-width: 1px;
+    border-color: solid rgb(53,81,93,1);
+    color: white;
+    /* height: 3.24%;
+    width: 21.25%; */
+    width: 200px;
+    height: 37px;
+    border-radius: 3rem;
+    padding: .8rem 0.8rem;
+    /* margin-bottom: 5px; */
+    /* margin-left: 36px; */
+    color: white;
+    font-size: 16px;
+}
+.button1_inside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button2{
+    background-color:rgba(17,52,70,.53);
+    border-width: 1px;
+    border-color: solid rgb(53,81,93,1);
+    /* height: 3.24%;
+    width: 7.24%; */
+     height: 37px;
+    width: 141px; 
+    padding: 0.8em 0.8rem;
+    border-radius: 3rem;
+    /* margin-top: 1%; */
+    /* margin-left: 18px; */
+    /* margin-left: 1.64%; */
+    margin-left: 2.64%;
+    color: white;
+    font-size: 16px;
+}
+.button2_inside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    /* margin-left: 175px; */
+    margin-right: 9%;
+
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.sentence1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat',sans-serif;
+    /* margin-top: 276px; */
+    /* margin-top: 106px; */
+    margin-top: 200px
+}
+.sentence2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Montserrat',sans-serif;
+}
+.buffer{
+    margin:0.15%
+}
+.buffer2{
+    /* margin:6.5% */
+    /* margin: 125px; */
+    margin: 100px;
+}
+.card{
+    width: 281.44px;
+    height: 350px;
+    background-image: url(mask.png);
+}
+
+.red-card{
+    width: 281.44px;
+    height: 350px;
+    background-image: url(Path.png);
+}
+.card-logo-center{
+
+padding-top: 65px;
+padding-left: 72.2px;
+}
+.card-sentence{
+   
+    padding-left: 34.2px;
+    padding-top: 78px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    font-family: 'Montserrat';
+}
+.card-sentence-leaderboard{
+    padding-left: 8px;
+    padding-top: 78px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    font-family: 'Montserrat';
+
+}
+.card-sentence-howtoplay{
+    padding-left: 15px;
+    padding-top: 78px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+    font-family: 'Montserrat';
+
+}
+.cards-alignment{
+/* 
+    display: grid;
+    grid-template-rows: auto;
+ */
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 18px;
+justify-content: center;
+/* align-self: auto; */
+/* padding: 5px; */
+/* display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 5px; */
+
+}
+@media only screen and (max-width: 1500px){
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        /* margin-left: 175px; */
+        margin-right: 2.5%;
+    
+    }
+    .logos-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        /* margin-left: 175px; */
+        margin-left: 2.5%;
+    }
+    
+}
+@media only screen and (max-width: 900px){
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        /* margin-left: 175px; */
+        margin-right: 2%;
+    
+    }
+    .logos-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        /* margin-left: 175px; */
+        margin-left: 2%;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+
+    .button1{
+        width: 20px;
+        height: 20px;
+        border-radius: 1rem;
+        padding: 0.1rem 0.1rem;
+        /* margin-bottom: 5px; */
+        /* margin-left: 36px; */
+        color: white;
+        font-size: 1;
+        visibility: hidden;
+    }
+    .button2{
+        width: 20px;
+        height: 20px;
+        border-radius: 1rem;
+        padding: 0.1rem 0.1rem;
+        /* margin-bottom: 5px; */
+        /* margin-left: 36px; */
+        color: white;
+        font-size: 1;
+        visibility: hidden;
+    }
+    .img3{
+        width: 5px;
+        height: 5px;
+    }
+    .img4{
+        width: 5px;
+        height: 5px;
+    }
+    .hamburger-button{
+        visibility: inherit;
+    }
+    .hamicon{
+        width: 30px;
+        height: 30px ; 
+    } 
+    .logos-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        /* margin-left: 175px; */
+        margin-left: 0.1%;
+    }
+    
+}
+
+@media only screen and (max-width: 580px){
+    .img1{
+        width: 100px;
+        height: 35px;
+    }
+    .img2{
+        width: 80px;
+        height: 38px ;
+        
+    }
+    .hamburger-button{
+        /* background-color:white; */
+        height: 45px;
+        width: 45px;
+     }
+    .hamicon{
+        width: 30px;
+        height: 30px ; 
+    } 
+    .sentence1{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Montserrat',sans-serif;
+        /* margin-top: 276px; */
+        /* margin-top: 106px; */
+        margin-top: 200px
+    }
+    .sentence2{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: 'Montserrat',sans-serif;
+    }
+}
