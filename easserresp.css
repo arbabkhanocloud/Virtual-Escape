@@ -1,38 +1,18 @@
-/* .hamburger-icon{
-   
-    height: 0px;
-    width: 0px;
-     background-color: rgba(17,52,70,0);
-     border-width: 1px;
-     border-color:black;
-    visibility: hidden;
- }
- .accelerator-button-text{
-    padding-bottom: 5px;
-    font-size: 10px;
- } */
-
-
 /* start of Navbar */
 .navbar-zone{
     background-color: White;
 }
 .main-navbar-list{
-    /* background-color: blue; */
     display: flex; 
     list-style: none;
-    /* font-size: 16px; */
     font-size: 110%;
     font-family: 'Nunito Sans', sans-serif;
-    /* padding: 5px; */
-    /* margin: 5px; */
     color: black;
 }
 .push-right{
     margin-left: auto;
 }
 .li-navbar{
-    /* padding: 20px; */
     padding-top: 1.38%;
     padding-bottom: 1.38%;
     padding-right: 1%;
@@ -43,45 +23,33 @@ a{
     text-decoration: none;
 }
 .logo-padding{
-    /* padding-top:6px; */ 
     padding-top: 0.42%;
 }
 .easser-img{
     height:35px ;
-    width: 113px ;
-   
+    width: 113px ; 
 }
 
-.accelerator-button{
-    
+.accelerator-button{ 
     height: 42px;
     width:175px ;   
-    /* width: .15%; */
     background-color: white;
     border-width: 2px;
     border-color: #F47E3D;
     border-radius: 5px;
-    /* padding: 5px; */
     font-size: 15px;
     font-family: 'Nunito Sans', sans-serif;
 }
 .accelerator-button-padding{
     margin-left: auto;
     padding-top:12px;
-    /* padding-bottom: 8px; */
 }
-
 /* End of Navbar */
 /* End of cover */
-
 .buttons{
     height: 50.13px;
-    /* width:213px ;   */
-    /* responsive */
     width: 20%;
- 
     border-radius: 5px;
-    /* color: #FDFCFF; */
     font-size: 16px;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -92,7 +60,6 @@ a{
 }
 .learnmore-button{
     color: #08253F;
-    /* background: #08253F; */
     border-width: 1px;
     border: 1px solid #08253F;
     color: black;
@@ -102,13 +69,10 @@ a{
 .cover-zone{
    
     display: flex;
-    /* justify-content: center; */
     justify-content:space-evenly;
     align-items: center; 
-    /* border: 5px solid blue; */
     height: 707px;
     background-color: #DFEEFB;
-    /* padding: 100px; */
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 10%;
@@ -119,8 +83,6 @@ a{
     justify-content: center;
 }
 .text1{
-   /* margin-top: 0px; */
-   /* padding-bottom: 50px; */
 }
 .cover-inner-zone-text-buttons{
     align-self: start;
@@ -130,55 +92,35 @@ a{
     padding-top: 50px;
 }
 .cover-text1{
-   /* font-size:40px;  */
-    /* responsive */
    font-size: 250%;
 }
 .cover-text2{
-    /* font-size: 18px; */
-    /* responsive */
-    font-size: 90%;
-   
+    font-size: 90%; 
 }
 .imac-img{
-    /* height:488px ;
-    width: 549.87px; */
-     /* responsive */
     width: 100%;
     height: 80%;
 }
 /* End of cover part */
 /* Start of Section parts */
     .page-content{
-        /* background-color: red; */
         background-color: white;
-        /* border: 5px solid red; */
     }
     .help-box{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* text-align: center; */
         margin-left: auto;
         margin-right: auto;
         height: 239px;
-        /* width: 800px; */
-        /* responsive */
         width: 80%;
         text-align: center;
         
     }
     .help-text1{
-        /* font-size: 70px; */
-        /* ressponsive */
         font-size: 250%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
         margin-top: 15px;
     }
     .help-text2{
-       
-        /* font-size: 18px; */
-        /* responsive */
         font-size: 120%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
@@ -186,8 +128,6 @@ a{
     }
     .points{
         height: 239px;
-        /* width: 475px; */
-        /* responsive */
         width: 40%;
         background-color: white;
     }
@@ -215,7 +155,6 @@ a{
 /* Start of The Big Picture Section part */
     .big-picture{
         height:860px;
-        /* width: 1000px; */
         width: 90%;
         background-color: #08253F;
         border-radius: 15px;
@@ -224,8 +163,6 @@ a{
         text-align: center;
     }
     .big-pic-heading{
-        /* font-size: 70px; */
-        /* responsive */
         font-size: 250%;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
@@ -234,8 +171,6 @@ a{
     }
     .big-pic-text-box{
         height:150px;
-        /* width: 721px; */
-        /* responsive */
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -249,9 +184,7 @@ a{
     }
     .grow-business-box{
         height: 265px;
-        /* width: 512px; */
         width: 55%;
-        /* background-color: red; */
         margin-left: 15%;
         margin-top: 150px;
         padding-bottom: 200px;
@@ -276,14 +209,10 @@ a{
 /* End of Sections part */
 /* start of footer part */
     .footer{
-        /* background-color: tan; */
         background-color: #08253F;
-        /* border: 5px solid tan; */
         height: 259px;
     }
     .footer-logo-plus-text-box{
-        /* width: 185px; */
-        /* responsive */
         width: 40%;
         height: 80px;
         margin-top: 1.5%;
@@ -313,23 +242,17 @@ a{
        
         justify-content: space-between;
         margin-top: 20px;
-        /* padding: 10%; */
     }
     .footber-navigationbar-box{
         margin-left: auto;
-        /* margin-right: 10%; */
-        /* margin-left: 55%; */
     }
     .footer-companybar-box{
         margin-left: auto;
         margin-right: 15%;
-        /* margin-right: 25%; */
-
     }
     .flex{
         display: flex;
         justify-content: center;
-        /* margin-left: 5%; */
         padding-left: 5%;
     }
     .footer-ending-text{
@@ -341,22 +264,17 @@ a{
         margin-top: 0px;
     }
     .footer-ending-text-box{
-        /* in-bomargttom: 0px; */
-        margin-top: 70px;
-       
+        margin-top: 70px;  
     }
 /* End of footer part */
 @media only screen and (max-width: 1000px){
     .accelerator-button{
-        
         height: 42px;
         width:140px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 8px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -364,11 +282,8 @@ a{
         
         display: flex; 
         list-style: none;
-        /* font-size: 16px; */
         font-size: 90%;
         font-family: 'Nunito Sans', sans-serif;
-        /* padding: 5px; */
-        /* margin: 5px; */
         color: black;
     }
     .easser-img{
@@ -377,31 +292,20 @@ a{
        
     }
     .imac-img{
-        /* height:488px ;
-        width: 549.87px; */
-         /* responsive */
         width: 90%;
         height: 70%;
     }
     .cover-text1{
-        /* font-size:40px;  */
-         /* responsive */
         font-size: 200%;
      }
      .cover-text2{
-         /* font-size: 18px; */
-         /* responsive */
          font-size: 80%;
         
      }
      .buttons{
         height: 50.13px;
-        /* width:213px ;   */
-        /* responsive */
-        width: 25%;
-     
+        width: 25%;  
         border-radius: 5px;
-        /* color: #FDFCFF; */
         font-size: 10px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -412,7 +316,6 @@ a{
     }
     .learnmore-button{
         color: #08253F;
-        /* background: #08253F; */
         border-width: 1px;
         border: 1px solid #08253F;
         color: black;
@@ -420,17 +323,12 @@ a{
         margin-left: 15px;
     }
     .help-text1{
-        /* font-size: 70px; */
-        /* ressponsive */
         font-size: 210%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
         margin-top: 15px;
     }
     .help-text2{
-       
-        /* font-size: 18px; */
-        /* responsive */
         font-size: 110%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
@@ -454,8 +352,6 @@ a{
         height: 45px;
     }
     .big-pic-heading{
-        /* font-size: 70px; */
-        /* responsive */
         font-size: 210%;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
@@ -514,40 +410,30 @@ a{
 }
 @media only screen and (max-width: 800px){
     .accelerator-button{
-        
         height: 42px;
         width:120px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
-    .accelerator-button{
-        
+    .accelerator-button{  
         height: 42px;
         width:120px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 8px;
         font-family: 'Nunito Sans', sans-serif;
     }
-    .main-navbar-list{
-        
+    .main-navbar-list{ 
         display: flex; 
         list-style: none;
-        /* font-size: 16px; */
         font-size: 80%;
         font-family: 'Nunito Sans', sans-serif;
-        /* padding: 5px; */
-        /* margin: 5px; */
         color: black;
     }
     .easser-img{
@@ -556,31 +442,20 @@ a{
        
     }
     .imac-img{
-        /* height:488px ;
-        width: 549.87px; */
-         /* responsive */
         width: 85%;
         height: 65%;
     }
     .cover-text1{
-        /* font-size:40px;  */
-         /* responsive */
         font-size: 180%;
      }
      .cover-text2{
-         /* font-size: 18px; */
-         /* responsive */
          font-size: 70%;
         
      }
      .buttons{
         height: 50.13px;
-        /* width:213px ;   */
-        /* responsive */
         width: 25%;
-     
         border-radius: 5px;
-        /* color: #FDFCFF; */
         font-size: 9px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -591,7 +466,6 @@ a{
     }
     .learnmore-button{
         color: #08253F;
-        /* background: #08253F; */
         border-width: 1px;
         border: 1px solid #08253F;
         color: black;
@@ -599,17 +473,12 @@ a{
         margin-left: 15px;
     }
     .help-text1{
-        /* font-size: 70px; */
-        /* ressponsive */
         font-size: 200%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
         margin-top: 15px;
     }
     .help-text2{
-       
-        /* font-size: 18px; */
-        /* responsive */
         font-size: 100%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
@@ -633,8 +502,6 @@ a{
         height: 40px;
     }
     .big-pic-heading{
-        /* font-size: 70px; */
-        /* responsive */
         font-size: 200%;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
@@ -692,51 +559,34 @@ a{
 
 }
 @media only screen and (max-width: 600px){
-    /* .hamburger-icon{
-        height: 20px;
-        width: 65px;
-         background-color: rgba(17,52,70,0);
-         border-width: 1px;
-         border-color:black;
-        visibility: inherit;
-     }
-    .accelerator-button-text{
-      visibility: hidden;
-     } */
      .accelerator-button{
         
         height: 42px;
         width:100px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
     .footer-companybar-box{
         margin-left: auto;
-        /* margin-left: 15%; */
         margin-right: 19%;
 
     }
     .footber-navigationbar-box{
         margin-left: auto;
         margin-right: 10%;
-        /* margin-left: 55%; */
     }
     .accelerator-button{
         
         height: 42px;
         width:100px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -744,8 +594,6 @@ a{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /* margin-left: 5%; */
-        /* padding-left: 5%; */
     }
     .join-accelerator-button{
         background-color: #F47E3D;
@@ -760,12 +608,10 @@ a{
         
         height: 42px;
         width:90px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -773,11 +619,8 @@ a{
         
         display: flex; 
         list-style: none;
-        /* font-size: 16px; */
         font-size: 60%;
         font-family: 'Nunito Sans', sans-serif;
-        /* padding: 5px; */
-        /* margin: 5px; */
         color: black;
     }
     .easser-img{
@@ -786,31 +629,20 @@ a{
        
     }
     .imac-img{
-        /* height:488px ;
-        width: 549.87px; */
-         /* responsive */
         width: 85%;
         height: 45%;
     }
     .cover-text1{
-        /* font-size:40px;  */
-         /* responsive */
         font-size: 140%;
      }
      .cover-text2{
-         /* font-size: 18px; */
-         /* responsive */
          font-size: 60%;
         
      }
      .buttons{
         height: 50.13px;
-        /* width:213px ;   */
-        /* responsive */
         width: 30%;
-     
         border-radius: 5px;
-        /* color: #FDFCFF; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -822,7 +654,6 @@ a{
     }
     .learnmore-button{
         color: #08253F;
-        /* background: #08253F; */
         border-width: 1px;
         border: 1px solid #08253F;
         color: black;
@@ -830,19 +661,12 @@ a{
         margin-left: 15px;
     }
     .help-text1{
-        /* font-size: 70px; */
-        /* ressponsive */
-        /* font-size: 200%; */
         font-size: 180%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
         margin-top: 15px;
     }
     .help-text2{
-       
-        /* font-size: 18px; */
-        /* responsive */
-        /* font-size: 100%; */
         font-size: 80%;
         font-family: 'Nunito Sans', sans-serif;
         margin-bottom: 0px;
@@ -866,8 +690,6 @@ a{
         height: 35px;
     }
     .big-pic-heading{
-        /* font-size: 70px; */
-        /* responsive */
         font-size: 150%;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
@@ -928,46 +750,35 @@ a{
 @media only screen and (max-width: 400px){
     
     .accelerator-button{
-        
         height: 42px;
         width:80px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
     .main-navbar-list{
-        
         display: flex; 
         list-style: none;
-        /* font-size: 16px; */
         font-size: 50%;
         font-family: 'Nunito Sans', sans-serif;
-        /* padding: 5px; */
-        /* margin: 5px; */
         color: black;
     }
     .easser-img{
         height:35px ;
         width: 90px ;
-       
     }   
 }
 @media only screen and (max-width: 350px){
     .accelerator-button{
-        
         height: 42px;
         width:70px ;   
-        /* width: .15%; */
         background-color: white;
         border-width: 2px;
         border-color: #F47E3D;
         border-radius: 5px;
-        /* padding: 5px; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -975,11 +786,8 @@ a{
         
         display: flex; 
         list-style: none;
-        /* font-size: 16px; */
         font-size: 50%;
         font-family: 'Nunito Sans', sans-serif;
-        /* padding: 5px; */
-        /* margin: 5px; */
         color: black;
     }
     .easser-img{
@@ -988,31 +796,20 @@ a{
        
     }
     .imac-img{
-        /* height:488px ;
-        width: 549.87px; */
-         /* responsive */
         width: 65%;
         height: 45%;
     }
     .cover-text1{
-        /* font-size:40px;  */
-         /* responsive */
         font-size: 140%;
      }
      .cover-text2{
-         /* font-size: 18px; */
-         /* responsive */
          font-size: 50%;
         
      }
      .buttons{
         height: 50.13px;
-        /* width:213px ;   */
-        /* responsive */
         width: 25%;
-     
         border-radius: 5px;
-        /* color: #FDFCFF; */
         font-size: 7px;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -1023,12 +820,10 @@ a{
     }
     .learnmore-button{
         color: #08253F;
-        /* background: #08253F; */
         border-width: 1px;
         border: 1px solid #08253F;
         color: black;
         background-color: #DFEEFB;
         margin-left: 15px;
     }
-
 }
